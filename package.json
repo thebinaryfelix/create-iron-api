@@ -1,0 +1,45 @@
+{
+  "name": "@thebinaryfelix/create-iron-api",
+  "version": "1.0.0",
+  "description": "A CLI to generate a base structure for an API REST project.",
+  "main": "src/index.js",
+  "bin": {
+    "@thebinaryfelix/create-iron-api": "bin/create-iron-api",
+    "create-iron-api": "bin/create-iron-api"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-iron-api",
+    "generator",
+    "api",
+    "rest",
+    "educational"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "execa": "^2.0.4",
+    "inquirer": "^6.5.1",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}

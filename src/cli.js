@@ -20,7 +20,7 @@ const parseArgumentsIntoOptions = rawArgs => {
   return {
     skipPrompts: args['--yes'] || false,
     git: args['--git'] || false,
-    projectName: args._[0],
+    projectName: args._[0] || 'iron-api',
     runInstall: args['--install'] || false,
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "iron-api-template",
+  "version": "1.0.0",
+  "description": "A base template for an awesome project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.1"
+  }
+}

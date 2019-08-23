@@ -21,7 +21,12 @@
     "rest",
     "educational"
   ],
-  "author": "",
+  "files": [
+    "bin/",
+    "src/",
+    "template/"
+  ],
+  "author": "Mateus Felix",
   "license": "ISC",
   "dependencies": {
     "arg": "^4.1.1",

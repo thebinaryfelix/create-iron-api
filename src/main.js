@@ -7,6 +7,8 @@ import execa from 'execa'
 import Listr from 'listr'
 import { projectInstall } from 'pkg-install'
 
+const { URL } = require('url')
+
 const access = promisify(fs.access)
 const copy = promisify(ncp)
 

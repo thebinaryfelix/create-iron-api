@@ -26,6 +26,7 @@
     "src/",
     "template/"
   ],
+  "repository": "github:thebinaryfelix/create-iron-api",
   "author": "Mateus Felix",
   "license": "ISC",
   "dependencies": {

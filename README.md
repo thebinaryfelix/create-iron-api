@@ -86,7 +86,3 @@ iron-api/
     - [ ] models/\*
     - [ ] routes/\*
     - [ ] app.js
-
-## Version control
-
-- Automate version updates

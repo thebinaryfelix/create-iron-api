@@ -1,6 +1,6 @@
 {
   "name": "@thebinaryfelix/create-iron-api",
-  "version": "1.0.1",
+  "version": "1.0.2-alpha.0",
   "description": "A CLI to generate a base structure for a REST API project.",
   "main": "src/index.js",
   "bin": {

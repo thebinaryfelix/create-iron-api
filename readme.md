@@ -2,6 +2,8 @@
 
 A simple base structure for designing a REST API.
 
+This package creates a simple API demo, using as context an API that serves data about galaxies. If you wish to know more about this demo, you can check it out on [@thebinaryfelix/galaxies-api-demo](https://github.com/thebinaryfelix/galaxies-api-demo).
+
 ## ⚙️ **Installation & Usage**
 
 ```bash
@@ -40,8 +42,6 @@ This generator can also be configured with the following flags.
 ```
 
 # 🧩 Project structure
-
-This package will generate the following structure:
 
 ```
 iron-api/

@@ -31,6 +31,20 @@ $ cd project-name
 $ npm install
 ```
 
+## 🚀 Run the created project
+
+On `project-name` root folder
+
+```bash
+$ npm start
+```
+
+### Open `http://localhost:3000/api-docs` to see API documentation.
+
+# 🔴 Important
+
+For this demo API to work properly, you need [MongoDB Community Edition ^4.2](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials) running on your machine.
+
 # Command Line Options
 
 This generator can also be configured with the following flags.

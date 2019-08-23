@@ -17,13 +17,13 @@ $ create-iron-api
 
 Create the project with default name `iron-api` and install dependencies:
 
-```
+```bash
 $ create-iron-api --yes --install
 ```
 
 💡Use a custom folder name and install dependencies manually:
 
-```
+```bash
 $ create-iron-api project-name
 $ cd project-name
 $ npm install
@@ -37,6 +37,34 @@ This generator can also be configured with the following flags.
 -g, --git         initialize Git
 -i, --install     install dependencies
 -y, --yes         skip prompts
+```
+
+# 🧩 Project structure
+
+This package will generate the following structure:
+
+```
+iron-api/
+├── api
+│   ├── config
+│   │   ├── swagger.js
+│   ├── controllers
+│   │   ├── galaxy.controller.js
+│   ├── models
+│   │   ├── galaxy.model.js
+│   │   ├── response.model.js
+│   ├── routes
+│   │   ├── galaxy.routes.js
+│   │   ├── index.js
+│   ├── app.js
+├── bin
+│   ├── www
+├── package.json
+├── prettier.config.js
+├── .prettierignore
+├── .eslintrc.js
+├── .eslintignore
+├── .gitignore
 ```
 
 ## 🏆 References
